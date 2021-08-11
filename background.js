@@ -1,0 +1,1 @@
+chrome.browserAction.onClicked.addListener(function(e){chrome.tabs.query({active:!0,currentWindow:!0},function(e){var r=e[0];chrome.tabs.sendMessage(r.id,{message:"clicked_browser_action"})})}),chrome.runtime.onMessage.addListener(function(e,r,n){"open_new_tab"===e.message&&chrome.tabs.create({url:e.url})});
