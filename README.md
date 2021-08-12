@@ -1,5 +1,6 @@
 # NoRedditLivestreams
 Chrome extension which removes reddit livestreams.
+Very lightweight, and will actually improve performance and internet bandwidth usage since you will no longer be forced to be shown livestreams.
 
 ## Installation
 Either way you install results in the same extension, just pick one.
